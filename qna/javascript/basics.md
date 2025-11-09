@@ -27,3 +27,10 @@ Javascript has **primitive** and **reference** types.
 Primitive values are immutable and stored directly in memory, while reference types are stored as memory references.
 
 ---
+## ⚙️ 2. What is the difference between `var`, `let`, and `const`?
+
+| Keyword | Scope | Reassignment | Redeclaration | Hoisting |
+|----------|--------|---------------|---------------|-----------|
+| `var` | Function | ✅ Yes | ✅ Yes | ✅ (initialized as `undefined`) |
+| `let` | Block | ✅ Yes | ❌ No | ✅ (but not accessible before declaration) |
+| `const` | Block | ❌ No | ❌ No | ✅ (but not accessible before declaration) |
