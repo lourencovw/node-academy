@@ -38,3 +38,13 @@ Primitive values are immutable and stored directly in memory, while reference ty
 Use `let` for variables that change and `const` for constants. Avoid `var` in modern code.
 
 ---
+## 🔄 3. What is the difference between `==` and `===`?
+
+- `==` (loose equality) compares values **after type coercion**.  
+- `===` (strict equality) compares both **value and type**.
+
+👉 Example:
+```js
+0 == '0'   // true
+0 === '0'  // false
+```
