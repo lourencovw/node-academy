@@ -34,3 +34,7 @@ Primitive values are immutable and stored directly in memory, while reference ty
 | `var` | Function | ✅ Yes | ✅ Yes | ✅ (initialized as `undefined`) |
 | `let` | Block | ✅ Yes | ❌ No | ✅ (but not accessible before declaration) |
 | `const` | Block | ❌ No | ❌ No | ✅ (but not accessible before declaration) |
+
+Use `let` for variables that change and `const` for constants. Avoid `var` in modern code.
+
+---
