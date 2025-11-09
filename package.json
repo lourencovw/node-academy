@@ -1,0 +1,19 @@
+{
+  "name": "node-academy",
+  "version": "0.0.0",
+  "description": "A complete Node.js learning hub, from fundamentals to advanced architecture. Includes SOLID, Clean Architecture, Hexagonal, DDD, and real-world interview Q&A examples.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lourencovw/node-academy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lourencovw/node-academy/issues"
+  },
+  "homepage": "https://github.com/lourencovw/node-academy#readme"
+}
