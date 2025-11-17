@@ -48,3 +48,10 @@ Use `let` for variables that change and `const` for constants. Avoid `var` in mo
 0 == '0'   // true
 0 === '0'  // false
 ```
+---
+## 4. What is the difference between `null` and `undefined` ?
+
+| Value | Meaning | Type |
+|-------|---------|------|
+| `undefined` | A variable has been declared but not assigned | `"undefined"` |
+| `null` | Explicitly set to "no value" | `"object"` (a historical quirk)  |
