@@ -55,3 +55,14 @@ Use `let` for variables that change and `const` for constants. Avoid `var` in mo
 |-------|---------|------|
 | `undefined` | A variable has been declared but not assigned | `"undefined"` |
 | `null` | Explicitly set to "no value" | `"object"` (a historical quirk)  |
+
+---
+## 5. What are truthy and falsy values
+
+```js
+const falsyValues = [false, 0, "", null, undefined, NAN]
+```
+Everything else is `truthy`.
+
+---
+
