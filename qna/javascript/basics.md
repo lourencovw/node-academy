@@ -66,3 +66,13 @@ Everything else is `truthy`.
 
 ---
 
+## 6. What is hoisting?
+Hoisting is JavaScript's default behavior of moving declaration to the top of their scope before execution.
+
+Example:
+```js
+console.log(a); //undefined
+var a = 5;
+```
+With `let` or `const`, variables are hoisted but not initialized (Temporal Dead Zone), so accessing them before declaration causes a **ReferenceError**.
+
