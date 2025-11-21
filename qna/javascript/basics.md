@@ -88,3 +88,22 @@ const add = (a,b) => a+b;
 ```
 - Declarations are hoisted.
 - Expressions are not, they behave like any other variable.
+---
+
+## 8. What is a closure?
+A **closure** is when an inner function has access to variables defined in its outer function, even after the outer function has returned.
+
+```js
+function makeCounter(){
+    let count = 0;
+    return function() {
+        return ++count;
+    }
+}
+const counter = makeCounter();
+console.log(counter()); // 1
+console.log(counter()); // 2
+```
+Closures are often used for **data privacy** or **function factories**.
+
+---
