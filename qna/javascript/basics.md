@@ -76,3 +76,15 @@ var a = 5;
 ```
 With `let` or `const`, variables are hoisted but not initialized (Temporal Dead Zone), so accessing them before declaration causes a **ReferenceError**.
 
+## 7. What is the diference between function declarations and function expressions?
+```js
+// Function declaration 
+function add(a,b){
+    return a+b;
+}
+
+// Function expression
+const add = (a,b) => a+b;
+```
+- Declarations are hoisted.
+- Expressions are not, they behave like any other variable.
