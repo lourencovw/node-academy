@@ -107,3 +107,13 @@ console.log(counter()); // 2
 Closures are often used for **data privacy** or **function factories**.
 
 ---
+## 9. What is the difference between `forEach`, `map`, `filter` and `reduce`?
+
+| Method | Purpose | Returns |
+| ------ | -------  | -----  |
+| `forEach` | Iterates over items | `undefined` |
+| `map` | Transforms each item | New array |
+| `filter` | Keeps items that match condition | New array |
+| `reduce` | Reduces array to a single value | Any type |
+
+---
